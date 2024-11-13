@@ -1,8 +1,8 @@
-# Your Name Here
+# Samuel Clackler
 # UWYO COSC 1010
-# Submission Date
-# Lab XX
-# Lab Section:
+# Submission Date: 11/12/24
+# Lab 09
+# Lab Section: 11
 # Sources, people worked with, help given to:
 # Your
 # Comments
@@ -34,6 +34,31 @@
 # - Assign the parameter for size to a size attribute.
 # - Assign the parameter for sauce to the attribute.
 # - Create the toppings attribute, starting off as a list only holding cheese.
+
+Input = input("Would you like to order? exit to exit: ")
+Mass = input("What size pizza would you like? Our Smallest size is 10in: ")
+
+for input in Input:
+    if input == exit:
+        break
+    else:
+        if input == 'yes':
+            print(Mass)
+
+
+
+class Pizza:
+    def __init__(self, Size, Sauce, Toppings):
+        def self(Size):
+            for input in Mass:
+                Mass = int(Mass)
+                if Mass != int(Mass):
+                    print('Please enter a valid pizza size')
+                    print(Mass)
+                elif input in Mass < 10:
+                    print("Our smallest pizza size is 10in")
+                else:
+                    print(f'You have selected the {Mass}in pizza.')
 
 
 # You will be creating a Pizzeria class with the following attributes:
@@ -82,24 +107,23 @@
 
 # Example output:
 """
-Would you like to place an order? exit to exit
-yes
-Please enter the size of pizza, as a whole number. The smallest size is 10
-20
-What kind of sauce would you like?
-Leave blank for red sauce
-garlic
-Please enter the toppings you would like, leave blank when done
-pepperoni
-bacon
+#yes
+#Please enter the size of pizza, as a whole number. The smallest size is 10
+#20
+#What kind of sauce would you like?
+#Leave blank for red sauce
+#garlic
+#Please enter the toppings you would like, leave blank when done
+#pepperoni
+#bacon
 
-You ordered a 20" pizza with garlic sauce and the following toppings:
-                                                                  cheese
-                                                                  pepperoni
-                                                                  bacon
-You ordered a 20" pizza for 12.0
-You had 3 topping(s) for $0.8999999999999999
-Your total price is $12.9
+#You ordered a 20" pizza with garlic sauce and the following toppings:
+#                                                                  cheese
+#                                                                  pepperoni
+#                                                                  bacon
+#You ordered a 20" pizza for 12.0
+#You had 3 topping(s) for $0.8999999999999999
+#Your total price is $12.9
 
-Would you like to place an order? exit to exit
-"""
+#Would you like to place an order? exit to exit
+#"""
