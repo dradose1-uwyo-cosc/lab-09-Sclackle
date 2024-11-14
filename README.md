@@ -1,8 +1,8 @@
-# [Name]
-## [Assignment #]
-## [Submission date: MM/DD/YY]
+# [Samuel Clackler]
+## [Assignment #09]
+## [Submission date: 11/14/24]
 ## Worked with/sources 
-* example
+* TA
 * example
 * example
 * example
